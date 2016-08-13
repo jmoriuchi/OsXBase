@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'OsXBase_Example' do
+  pod 'OsXBase', :path => '../'
+
+  target 'OsXBase_Tests' do
+    inherit! :search_paths
+    pod 'OsXBase', :path => '../'
+
+    pod 'Quick', '~> 0.8'
+    pod 'Nimble', '~> 3.0'
+  end
+end

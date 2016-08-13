@@ -1,0 +1,6 @@
+framework module Pods_OsXBase_Example {
+  umbrella header "Pods-OsXBase_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
