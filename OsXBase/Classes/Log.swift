@@ -12,7 +12,7 @@ import Cocoa
 
  The Log class represents a log entity.
  
- A Log instance having its own file provides methods to write messages.
+ A Log class instance having its own file provides methods to write messages.
  
  You can give instances an instruction of whether opening the log with append mode when the instances is created.
  */
@@ -32,7 +32,7 @@ class Log: NSObject {
     var message = ""
     
     /**
-     Creates an instance, then executes initialization for the instance.
+     Creates an instance, and then executes initialization for the instance.
      
      The log file of the instance is opened at the same time.
      
@@ -57,9 +57,10 @@ class Log: NSObject {
     }
     
     /**
-     Discards the instance which has turned into unused after post-processing for the instance.
+     Discards the Log class instance which has turned into unused after post-processing for the instance.
      
      The log file is closed at the same time.
+     
      */
     deinit {
         

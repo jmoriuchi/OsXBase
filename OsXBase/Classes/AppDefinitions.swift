@@ -17,17 +17,16 @@ import Cocoa
 public struct AppDefinitions {
     
     //  The root directory of Xcode projects and logs.
-    
-    static var RootDirectory: String {
+    public static var RootDirectory: String {
         return "\(NSHomeDirectory())/Documents/Xcode"
     }
 
     //  The application name.
     //  Each application should be set this property when it starts.
-    static var AppName: String = ""
+    public static var AppName: String = ""
     
     //  The log directory.
-    static var LogDirectory: String {
+    public static var LogDirectory: String {
         return "\(self.RootDirectory)/Logs"
     }
 

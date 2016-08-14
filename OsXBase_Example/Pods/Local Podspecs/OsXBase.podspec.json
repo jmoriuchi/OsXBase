@@ -1,8 +1,8 @@
 {
   "name": "OsXBase",
-  "version": "0.1.3",
-  "summary": "OsXBase description.",
-  "description": "OsXBase log description.",
+  "version": "0.1.0",
+  "summary": "The base framework for osX applications.",
+  "description": "OsXBase is the base framework for osX applications.\nThe framework provides utility functionarities and methods for logs.",
   "homepage": "https://github.com/yaiyai/OsXBase",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yaiyai/OsXBase.git",
-    "tag": "0.1.3"
+    "tag": "0.1.0"
   },
   "platforms": {
     "osx": "10.11"

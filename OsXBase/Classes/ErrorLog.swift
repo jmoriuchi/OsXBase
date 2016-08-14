@@ -11,7 +11,7 @@ import Cocoa
 /**
  The ErrorLog class which is subclass of Log class represents an error log entity.
  
- An ErrorLog instance having its own file provides methods to write error messages.
+ An ErrorLog class instance having its own file provides methods to write error messages.
  
  You can give instances an instruction of whether opening the log with append mode when the instances is created.
  */
@@ -22,7 +22,7 @@ class ErrorLog: Log {
     var latestErrorMessage = ""
     
     /**
-     Creates an instance, then executes initialization for the instance.
+     Creates an instance, and then executes initialization for the instance.
      
      Nothing to do as the ErrorLog instance itself.
      

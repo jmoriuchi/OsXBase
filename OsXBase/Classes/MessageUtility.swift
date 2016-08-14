@@ -21,7 +21,6 @@ public struct MessageUtility {
      
      - returns: A formatted current date string.
      */
-
     public static func currentDateString() -> String {
         
         let date = NSDateFormatter()
@@ -35,7 +34,6 @@ public struct MessageUtility {
      
      - returns: A formatted current date and time stirng.
      */
-    
     public static func currentDateTimeString() -> String {
         
         let date = NSDateFormatter()
@@ -49,7 +47,6 @@ public struct MessageUtility {
      
      - returns: A formatted default log file directroy stirng.
      */
-
     static func logDirectoryString() -> String {
         
         return "\(NSHomeDirectory())/Documents/Development/Logs"
@@ -67,7 +64,6 @@ public struct MessageUtility {
      
      - returns: A formatted code location string.
      */
-
     public static func codeLocationString(file file: String = #file, line: Int = #line, function: String = #function) -> String {
         
         let fileName = extractFileName(file)
@@ -84,7 +80,6 @@ public struct MessageUtility {
      
      - returns: A formatted error information string.
      */
-    
     public static func errorInfoString(error: String, details: String = "*") -> String {
         
         return "Error : \(error), Details : \(details)"
@@ -124,7 +119,6 @@ public struct MessageUtility {
      
      - returns: A formatted error message.
      */
-    
     public static func errorMessage(error: String, details: String = "*", file: String = #file, line: Int = #line, function: String = #function) -> String {
         
         //  Gets a formatted error information string.
@@ -144,7 +138,6 @@ public struct MessageUtility {
      
      - returns: The file name part.
      */
-    
     static func extractFileName(filePath: String) -> String {
         
         //  Separates the file path by '/'
